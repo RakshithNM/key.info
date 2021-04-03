@@ -69,7 +69,9 @@ export default defineComponent({
 }
 
 .keycode:hover {
+  transform: translateY(-10px);
   filter: drop-shadow(3px 3px 3px #8cc5ff);
+  transition: transform 0.3s ease-in;
 }
 
 .title {
