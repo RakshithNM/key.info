@@ -65,6 +65,11 @@ export default defineComponent({
   margin: 0;
   font-size: 40vmin;
   color: limegreen;
+  cursor: pointer;
+}
+
+.keycode:hover {
+  filter: drop-shadow(3px 3px 3px #8cc5ff);
 }
 
 .title {
